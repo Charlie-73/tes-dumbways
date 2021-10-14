@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            pattern()
+
+            function pattern(n, i) {
+                n = 5
+                for (let i = 1; i <= n; i++){
+                    for (let j = 1; j <= n; j++){
+                       if (i == 3 || j == 3) {
+                           document.write("*")
+                       } else { 
+                           document.write("#")
+                       }
+                    }
+                }
+            }
+
+
+        </script>
+    </body>
+</html>
